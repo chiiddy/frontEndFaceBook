@@ -1,38 +1,309 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.backGround {
+  height: 100vh;
+  width: 100wh;
+  background-color: #F0F2F5;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 6rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 12rem;
+  position: relative;
+  background-color: transparent;
+}
+.faceBookLogo {
+  height: 106px;
+  margin: -28px;
+}
+ .writings {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  display: inline-block;
+}
+.forms {
+  background-color: white;
+  border: 1px solid #dddfe2;
+  height: 20rem;
+  width: 24rem;
+  border-radius: 0.7rem;
+}
+input {
+  width: 12rem;
+  margin: 4px;
+  font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+}
+.log {
+  width:368px;
+  height: 3rem;
+  border-radius: 6px;
+  margin-right: 3rem;
+  margin: 2.8px;
+  border-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1b74e4;
+    background-color: #1b74e4;
+    color: white;
+}
+.password {
+  display: flex;
+  margin-left: 6.8rem;
+  color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+.created {
+  width:189px;
+  height: 3rem;
+  border-radius: 6px;
+  margin-left: 4.5rem;
+  background-color: #42b72a;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: none;
+    vertical-align: middle;
+}
+.page {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.brand {
+  display:flex;
+  
+}
+.facebooks {
+  margin-top: 3.4rem;
+}
+
+.closed {
+  height: 3vh;
+  margin-left: 15rem;
+  margin-bottom: 1.5rem;
+}
+.signed {
+  margin: -12px;
+  margin-left: 0.8rem;
+}
+.quickly {
+  margin-left: 11.4px;
+}
+.signup {
+  margin-top: 1.3rem;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6rem;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  padding-left: 3rem;
+  height: 72vh;
+  border: 1px solid #ccd0d5;
+  width: 32rem;
+  background: transparent;
+  border-radius: 8px;
+  margin-left: 27rem;
+  margin-top: 5rem;
+  background-color: white;
+  /* border: 1px solid #ccd0d5;
+  width: 34rem;
+  height: 74vh;
+   */
+}
+.name {
+  width: 170px;
+  padding: 11px;
+  border-radius: 5px;
+  background: transparent;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 16px; 
+  
+}
+.surnames {
+  width: 170px;
+  padding: 11px;
+  border-radius: 5px;
+  margin: 0;
+  background: transparent;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  border: 1px solid #ccd0d5;
+  margin-left: 2rem;
+  margin-top: 0.8rem;
+}
+.mobile {
+  width: 386px;
+  padding: 11px;
+  border-radius: 5px;
+  margin: 0;
+  background: transparent;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  border: 1px solid #ccd0d5;
+  margin-left: 7.7px;
+}
+.passwrded {
+  width: 386px;
+  padding: 11px;
+  border-radius: 5px;
+  margin: 9px;
+  background: transparent;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  border: 1px solid #ccd0d5;
+
+}
+.question {
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.firstSelect {
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  border-radius: 4px;
+  width: 125px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #ccd0d5;
+}
+.secondSelect {
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  border-radius: 4px;
+  width: 125px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #ccd0d5;
+}
+.thirdSelect {
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  border-radius: 4px;
+  width: 125px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #ccd0d5;
+}
+.totalSelect {
+  display: flex;
+  margin-left: 7px;
+  gap: 1rem;
+}
+.dates {
+  margin: 0px;
+  margin-left: 8px;
+  
+}
+.questiomTwo {
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.female {
+  /* border: 1px solid #ccd0d5; */
+  width: 125px;
+  height: 36px;
+  border-radius: 4px;
+  display:flex;
+  align-items: center;
+  gap: 37px;
+}
+.femaleWord {
+  padding-left: 7px;
+}
+.male {
+  border: 1px solid #ccd0d5;
+  width: 125px;
+  height: 36px;
+  border-radius: 4px;
+  display:flex;
+  align-items: center;
+  gap: 51px; 
+}
+.maleWord {
+  padding-left: 7px;
+}
+.custom {
+  border: 1px solid #ccd0d5;
+  width: 125px;
+  height: 36px;
+  border-radius: 4px;
+  display:flex;
+  align-items: center;
+  gap: 40px; 
+}
+.secondSelect {
+  display: flex;
+  margin-left: 6px;
+  gap: 29px;
+}
+.gender {
+  margin: 7px;
+  
+}
+.footer {
+  font-family: inherit;
+  color: #777;
+  font-size: 11px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 0.4rem;
+}
+.baseFooter {
+  width: auto;
+
+}
+.baseFootter {
+  font-family: inherit;
+  color: #777;
+  font-size: 11px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-left: 0.4rem;
+}
+.signupp {
+  display: flex;
+  margin-left: 6.5rem;
+  height: 36px;
+  font-weight: bold!important;
+  letter-spacing: normal;
+  text-rendering: optimizelegibility;
+  text-align: center;
+  width: 12rem;
+  padding-left: 4rem;
+  padding-top: 0.6rem;
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
   color: white;
 }
+  
+.firstLine {
+  display: flex;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal {
+  position: absolute;
+  background-color: transparent
+  
+  
 }
